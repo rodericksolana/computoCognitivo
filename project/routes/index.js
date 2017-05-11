@@ -1,7 +1,4 @@
 
-
-
-
 exports.listSysTables = function(ibmdb,connString)
 {
     return function(req, res) {

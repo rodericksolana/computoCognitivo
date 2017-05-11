@@ -1,3 +1,14 @@
+.style("height", function(d) {
+    var barHeight = d * 5;  //Incrementar la escala 5 veces.
+    return barHeight + "px";
+    });
+
+    div.bar {
+	display: inline-block;
+	width: 20px;
+	height: 75px;   /* Esto se cambiará próximamente */
+	background-color: teal;
+}
 
 
 thead {color:green;}
@@ -14,3 +25,9 @@ fill: steelblue;
 .bar text {
 fill: #fff;
 font: 10px sans-serif;
+}
+
+.bar text2 {
+fill: #fff;
+font: 10px sans-serif;
+}

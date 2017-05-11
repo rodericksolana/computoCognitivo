@@ -6,6 +6,7 @@
   "version": "0.0.1",
   "description": "A sample node app for connecting to dashDB service on Bluemix",
   "dependencies": {
+    "bootstrap": "^3.3.7",
     "cf-deployment-tracker-client": "0.0.8",
     "d3": "^4.8.0",
     "ejs": "^2.5.6",
