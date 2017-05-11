@@ -1,0 +1,17 @@
+---
+declared-services:
+  dashDB-nodesample:
+    label: dashDB
+    plan: Entry
+applications:
+# replace the host variable below with your own unique one, as this one can be already taken
+- name: dashdbnodesampleITESM
+  memory: 512M
+  instances: 1
+  path: .
+  host: dashdbnodesampleITESM
+  framework: node
+  command:    node app.js
+  buildpack:  sdk-for-nodejs
+  services:
+  - claseDBitesm

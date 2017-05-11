@@ -1,0 +1,21 @@
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+
+thead {color:green;}
+tbody {color:blue;}
+
+table, th, td {
+    border: 1px solid black;
+  }
+
+.bar rect {
+fill: steelblue;
+}
+
+.bar text {
+fill: #fff;
+font: 10px sans-serif;
